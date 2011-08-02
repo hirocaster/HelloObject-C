@@ -8,10 +8,15 @@
 
 #import "HelloWorldViewController.h"
 
+static NSString *kHelloWorld = @"HelloWorld";
+
 @implementation HelloWorldViewController
+
+@synthesize label = _label;
 
 - (void)dealloc
 {
+    [_label release];
     [super dealloc];
 }
 
@@ -25,13 +30,17 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *str = NSLocalizedString(kHelloWorld, @"");
+    
+    self.label.text = str;
 }
-*/
+
 
 - (void)viewDidUnload
 {

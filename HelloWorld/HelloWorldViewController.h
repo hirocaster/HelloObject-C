@@ -10,6 +10,9 @@
 
 @interface HelloWorldViewController : UIViewController {
     
+    UILabel *_label;
 }
+
+@property (retain, nonatomic) IBOutlet UILabel *label;
 
 @end
