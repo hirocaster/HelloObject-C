@@ -22,6 +22,7 @@
 		D87C50E513E811BE00B6944C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D87C50E313E811BE00B6944C /* InfoPlist.strings */; };
 		D87C50E813E811BE00B6944C /* HelloWorldTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D87C50E713E811BE00B6944C /* HelloWorldTests.h */; };
 		D87C50EA13E811BE00B6944C /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D87C50E913E811BE00B6944C /* HelloWorldTests.m */; };
+		D87C50F513E81D2900B6944C /* HelloWorldMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D87C50F413E81D2900B6944C /* HelloWorldMainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,24 @@
 		D87C50BA13E811BE00B6944C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D87C50BC13E811BE00B6944C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D87C50BE13E811BE00B6944C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D87C50C213E811BE00B6944C /* HelloWorld-Info.plist */ = {isa = PBXFileReference; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		D87C50C213E811BE00B6944C /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
 		D87C50C413E811BE00B6944C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D87C50C613E811BE00B6944C /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
+		D87C50C613E811BE00B6944C /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		D87C50C713E811BE00B6944C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D87C50C913E811BE00B6944C /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		D87C50C913E811BE00B6944C /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
 		D87C50CA13E811BE00B6944C /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
 		D87C50CD13E811BE00B6944C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		D87C50CF13E811BE00B6944C /* HelloWorldViewController.h */ = {isa = PBXFileReference; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		D87C50CF13E811BE00B6944C /* HelloWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
 		D87C50D013E811BE00B6944C /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		D87C50D313E811BE00B6944C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloWorldViewController.xib; sourceTree = "<group>"; };
 		D87C50DA13E811BE00B6944C /* HelloWorldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87C50E213E811BE00B6944C /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
+		D87C50E213E811BE00B6944C /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		D87C50E413E811BE00B6944C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D87C50E613E811BE00B6944C /* HelloWorldTests-Prefix.pch */ = {isa = PBXFileReference; path = "HelloWorldTests-Prefix.pch"; sourceTree = "<group>"; };
+		D87C50E613E811BE00B6944C /* HelloWorldTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorldTests-Prefix.pch"; sourceTree = "<group>"; };
 		D87C50E713E811BE00B6944C /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		D87C50E913E811BE00B6944C /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		D87C50F313E81D2900B6944C /* HelloWorldMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldMainView.h; sourceTree = "<group>"; };
+		D87C50F413E81D2900B6944C /* HelloWorldMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldMainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		D87C50AB13E811BE00B6944C = {
 			isa = PBXGroup;
 			children = (
+				D87C50F313E81D2900B6944C /* HelloWorldMainView.h */,
+				D87C50F413E81D2900B6944C /* HelloWorldMainView.m */,
 				D87C50C013E811BE00B6944C /* HelloWorld */,
 				D87C50E013E811BE00B6944C /* HelloWorldTests */,
 				D87C50B913E811BE00B6944C /* Frameworks */,
@@ -263,6 +268,7 @@
 				D87C50C813E811BE00B6944C /* main.m in Sources */,
 				D87C50CB13E811BE00B6944C /* HelloWorldAppDelegate.m in Sources */,
 				D87C50D113E811BE00B6944C /* HelloWorldViewController.m in Sources */,
+				D87C50F513E81D2900B6944C /* HelloWorldMainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
